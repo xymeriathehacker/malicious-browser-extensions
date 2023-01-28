@@ -1,2 +1,2 @@
 # malicious browser extensions
-malicious browser extensions
+- blockall: it deletes the content of every loaded page.  
