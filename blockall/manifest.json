@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "malxtention",
+  "version": "1.0",
+
+  "description": "Malware browser extension",
+  
+  "icons": {
+    "48": "icons/favicon.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
